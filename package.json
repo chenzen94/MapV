@@ -1,0 +1,38 @@
+{
+  "name": "mapv",
+  "version": "1.0.0",
+  "description": "map visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack_config_dev.js --open --hot --inline",
+    "build": "webpack -p --config webpack.config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giscrazier/MapV.git"
+  },
+  "keywords": [
+    "map",
+    "visualization"
+  ],
+  "author": "gissky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giscrazier/MapV/issues"
+  },
+  "homepage": "https://github.com/giscrazier/MapV#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
